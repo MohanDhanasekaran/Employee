@@ -100,7 +100,7 @@
 
 .middle-panel .contact-info p .icon-1{
  
-  border-radius: 50%;
+  border-radius: 70%;
   font-size: 19px;
 }
 
@@ -209,7 +209,7 @@
 .right-panel .awards-middle-header .left-s2{
    width: 30%;
   position: relative;
-  top: -10px;
+  top: -12px;
   left: 65%;
 } 
 
