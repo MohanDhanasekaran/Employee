@@ -1,0 +1,126 @@
+.form-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.form-group label {
+  width: 30%;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form-group input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #e0dcdc;
+  border: 1px solid silver;
+  color: black;
+  transition: all 0.3s ease;
+}
+.form-group select {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: #e0dcdc;
+  border: 1px solid silver;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.form-group input::placeholder {
+  color: #999;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border: 1px solid black;
+}
+
+/* Hide number input arrows in Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide number input arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: none;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border-radius: 7px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.custom-select-wrapper {
+  position: relative;
+  width: 55%;
+}
+
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  background-color: #e0dcdc;
+  color: black;
+  font-size: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #333;
+  font-size: 14px;
+}
