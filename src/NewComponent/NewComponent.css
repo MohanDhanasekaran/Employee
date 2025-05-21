@@ -4,7 +4,7 @@
   color: black;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   position: relative;
@@ -74,20 +74,139 @@
 .middle-panel .username-s h1{
   width: 70%;
   padding-left: 20px;
+=======
+    padding: 0px;
+>>>>>>> e6fa0ad3ec693d6de344bc51b35c23060e319caa
   margin: 0px;
+  box-sizing: border-box;
+}
+
+.top-container{
+  width: 100vw;
+  height: 61vh;
+  background-color: #fff;
+  border-bottom: 3px solid #c5c9ca;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Bottom shadow only */
+  display: flex;
+}
+
+.top-container .left-side {
+  width: 25%;
+  height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; 
 }
+
 .middle-panel .username-s h3{
   width: 60%;
   margin: 0px;
+
+
+.top-container .left-side::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, #74D1DC 0%, #007E91 100%);
+  clip-path: path("M900,0 C100,100 100,150 0,1000 L0,0 Z");
+  z-index: 0;
 }
-.middle-panel .contact-info{
-  width: 80%;
+
+
+
+.top-container .left-side .image-head{
+  width: 90%;
+  height: 80%;
+  position: relative;
+  z-index: 1; /* to make sure image appears above shape */
 }
-.middle-panel .contact-info p{
+.top-container .left-side .image-head img{
+  background-color:  rgb(234, 233, 233);
+  padding: 5px;
   width: 100%;
+  height: 100%;
+  border-radius: 50%;
+ 
+}
+
+.top-container .right-side{
+  width: 75%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.top-container .right-side .head-details{
+ width: 100%;
+ height: 100%;
+  display: flex;
+}
+.top-container .right-side .head-details .header-names{
+   width: 75%;
+  padding: 20px 0px 10px 20px;
+  border-bottom: 3px solid #c5c9ca;
+  }
+.top-container .right-side .head-details .header-names .username-s{
+  padding: 0px;
+  margin: 0px;
+  font-size: 35px;
+}
+.top-container .right-side .head-details .header-names .sub-head{
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+   background: radial-gradient(circle at center, #17c1d4 0%, #007E91 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top-container .right-side .head-details .header-names .para-s{
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.top-container .right-side .head-details .image-s{
+  width: 25%;
+  height: 100%;
+  /* background-color: aliceblue; */
+}
+.top-container .right-side .head-details .image-s img{
+  width: 90%;
+  height: 80%;
+  margin-top: 10px;
+}
+.top-container .right-side .contact-details{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 20px;
+}
+.contact-details::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 0;
+ clip-path: polygon(61% 68%, 82% 30%, 100% 0, 100% 86%, 100% 100%, 48% 100%, 31% 100%, 39% 93%, 48% 84%);
+ background: radial-gradient(circle at center, #74D1DC 0%, #007E91 100%);
+
+}
+
+.top-container .right-side .contact-details .contact-inform{
+  width: 100%;
+}
+.top-container .right-side .contact-details .contact-inform p {
+  padding: 0px 200px 0px 0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -95,6 +214,7 @@
   gap: 10px;
   font-size: 17px;
 }
+.top-container .right-side .contact-details .contact-inform p .icon-1{
 
 .middle-panel .contact-info p .icon-1{
   border-radius: 70%;
@@ -103,35 +223,54 @@
 .middle-panel .contact-info p .icon-2{
   border-radius: 70%;
   font-size: 30px;
+  font-size: 20px;
+   color: #3aa6b3;
 }
-
-.right-panel{
-  width: 40%;
-  height: 100vh;
-  position: relative;
+.top-container .right-side .contact-details .company-inform{
+  width: 90%;
+  padding: 0px 0px 0px 40px;
 }
-.right-panel .awards-header {
-  width: 70%;
-    background: linear-gradient(to bottom, #4da6db, #005c88);
-  color: white;
-  position: absolute;
-  left: 15%;
-  top: -2%;
-  border-radius: 20px;
+.top-container .right-side .contact-details .company-inform .icon-2{
+  padding: 0px  30px 0px 0px;
+  font-size: 28px;
+   color: #3aa6b3;
 }
-.right-panel .awards-middle-header .left-s{
-   width: 30%;
-  position: relative;
-  top: 30px;
-  left: 5%;
-} 
-
-.right-panel .awards-middle-header .left-s .awards-middle{
+.bottom-container{
+  width: 100vw;
+  height: 45vh;
+}
+.bottom-container .awards-title{
+    background: radial-gradient(circle at center, #1895a3 0%, #007E91 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bottom-container .awards-card {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+.bottom-container .awards-card .awards{
   width: 100%;
-  position: relative;
-  top: 40px;
+  height: 100%;
+  padding: 5px;
+  background-color: white;
+   color: black;
+ box-shadow: 0 4px 10px rgba(31, 42, 54, 0.3); /* Blue glow */
+  border-radius: 0px 30px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  
 }
-.right-panel .awards-middle-header .left-s .awards-middle img{
+.bottom-container .awards-card .awards p{
   width: 100%;
   position: absolute;
   left: 0px;
@@ -145,19 +284,18 @@
   position: absolute;
   left: 35px;
   top: 75px;
- 
+  text-align: center;
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;
 }
-
-.right-panel .awards-middle-header .split-awards-middle{
-  margin-top: 0px;
-}
-
-.right-panel .awards-middle-header .split-awards-middle .left-s .company-logo{
+.bottom-container .awards-card .awards img{
   width: 60%;
-  position: relative;
-  
+  /* height: 7vh; */
+   padding: 0px;
+  margin: 0px;
 }
+
 .right-panel .awards-middle-header .split-awards-middle .left-s .company-logo img{
   width: 100%;
   height: 5vh;
@@ -320,24 +458,47 @@
 }
 .right-panel .awards-middle-header .split-awards-middle .left-s2 .company-logo8 img{
   width: 60%;
+}
+.bottom-container .awards-card .awards .img-1{
+  width: 90%;
   height: 7vh;
-  position: relative;
-  top: 7.7vw;
-  left: 35%;
+   padding: 0px;
+  margin: 0px;
 }
-.para-1{
-  padding-top: 20px;
+.bottom-container .awards-card .awards .img-2{
+  width: 90%;
+  height: 11vh;
+   padding: 0px;
+  margin: 0px;
 }
-.para-2{
-  padding-top: 10px;
+.bottom-container .awards-card .awards .img-3{
+  width: 100%;
+  height: 7vh;
+   padding: 0px;
+  margin: 0px;
 }
 .para-3{
   margin-bottom: 20px;
 }
-.para-4{
-  margin-bottom: -10px;
+.bottom-container .awards-card .awards .img-3{
+  width: 70%;
+  height: 7vh;
+   padding: 0px;
+  margin: 0px;
+}
+.bottom-container .awards-card .awards .img-5{
+  width: 60%;
+  height: 8.5vh;
+   padding: 0px;
+  margin: 0px;
 }
 
+.bottom-container .awards-card .awards .img-6{
+  width: 45%;
+  height: 8.5vh;
+   padding: 0px;
+  margin: 0px;
+}
 
 .download-btn {
   background-color: #007bff;
