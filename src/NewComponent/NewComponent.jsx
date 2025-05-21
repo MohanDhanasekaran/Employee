@@ -23,6 +23,7 @@ import {
   FaMapMarkerAlt,
   FaEnvelope,
 } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 // import { FiMail } from "react-icons/fi";
 import { useRef } from "react";
 import html2canvas from "html2canvas";
@@ -97,7 +98,7 @@ const NewComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitterX  size={35} color="#000000" />
+            <BsTwitterX  size={35} color="#000000" />
           </a>
           <a
             href="https://www.example.com"
