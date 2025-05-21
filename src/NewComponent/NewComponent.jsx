@@ -25,6 +25,7 @@ import {
 } from "react-icons/fa";
 // import { FiMail } from "react-icons/fi";
 import { useRef } from "react";
+import { BsTwitterX } from "react-icons/bs";
 import html2canvas from "html2canvas";
 
 const NewComponent = () => {
@@ -97,7 +98,7 @@ const NewComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter size={35} color="#1DA1F2" />
+            <BsTwitterX size={35} color="#000000" />
           </a>
           <a
             href="https://www.example.com"
