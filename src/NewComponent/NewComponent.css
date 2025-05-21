@@ -20,8 +20,8 @@
   border-bottom: 3px solid #c5c9ca;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Bottom shadow only */
   display: flex;
-
 }
+
 .top-container .left-side {
   width: 25%;
   height: 100%;
@@ -48,7 +48,7 @@
 
 
 .top-container .left-side .image-head{
-    width: 90%;
+  width: 90%;
   height: 80%;
   position: relative;
   z-index: 1; /* to make sure image appears above shape */
