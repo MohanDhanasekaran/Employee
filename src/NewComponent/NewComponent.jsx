@@ -98,7 +98,7 @@ const NewComponent = () => {
                 <FaEnvelope  className="icon-1" /> ishwar@necurity.com{" "}
               </p>
               <p>
-                <FaGlobe className="icon-1" /> www.necurity.com
+                <a href="www.google.com"><FaGlobe className="icon-1" /></a> www.necurity.com
               </p>
               <p>
                 <FaMapMarkerAlt className="icon-1" /> Block 3, II Floor, Equinox Managed Workspaces, 6/13, North Ave, Kesavaperumalpuram, <br /> Raja Annamalai Puram, Chennai, Tamil Nadu 600028
