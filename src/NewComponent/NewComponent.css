@@ -144,7 +144,7 @@
 .right-panel .awards-middle-header .left-s .awards-content p{
   width: 100%;
   position: absolute;
-  left: 35px;
+  left: 33px;
   top: 75px;
  
   font-weight: bold;
@@ -379,7 +379,7 @@
 }
 .fs-1{
   font-size: 8px;
-  margin-top: 11px;
+  margin-top: 0px;
 }
 .fs-2{
   font-size: 9px;
