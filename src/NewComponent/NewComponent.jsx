@@ -126,8 +126,7 @@ const NewComponent = () => {
             <FaGlobe className="icon-1" /> www.necurity.com
           </p>
           <p>
-            <FaMapMarkerAlt className="icon-2" /> 6/13, North
-            Avenue,Kesavaperumalpuram, Raja Annamalai Puram, Chennai-28.
+            <FaMapMarkerAlt className="icon-2" /> 6/13, North Avenue,Kesavaperumalpuram, Raja Annamalai Puram, Chennai-28.
           </p>
         </div>
       </div>
