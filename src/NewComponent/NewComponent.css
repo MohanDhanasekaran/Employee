@@ -1,6 +1,5 @@
-
 .Apps{
-    width: 100%;
+  width: 100%;
   height: 100vh;
   color: black;
   text-align: center;
@@ -28,7 +27,7 @@
 }
 .left-panel .img-s img{
   width: 125%;
-  height: 47%;
+  height: 48%;
   border-radius: 50%;
   position: absolute;
   top: 25%;
@@ -74,7 +73,7 @@
 }
 .middle-panel .username-s h1{
   width: 70%;
-  padding-left: 15px;
+  padding-left: 20px;
   margin: 0px;
   display: flex;
   flex-direction: row;
@@ -82,7 +81,6 @@
 }
 .middle-panel .username-s h3{
   width: 60%;
-  padding-left: 0px;
   margin: 0px;
 }
 .middle-panel .contact-info{
@@ -99,9 +97,12 @@
 }
 
 .middle-panel .contact-info p .icon-1{
- 
   border-radius: 70%;
-  font-size: 19px;
+  font-size: 22px;
+}
+.middle-panel .contact-info p .icon-2{
+  border-radius: 70%;
+  font-size: 30px;
 }
 
 .right-panel{
@@ -144,7 +145,7 @@
   position: absolute;
   left: 35px;
   top: 75px;
-  font-size: 9px;
+ 
   font-weight: bold;
 }
 
@@ -163,6 +164,13 @@
   position: relative;
   top: 13vw;
   left: 35%;
+}
+.right-panel .awards-middle-header .split-awards-middle .left-s .company-logo9 img{
+  width: 70%;
+  height: 5vh;
+  position: relative;
+  top: 14vw;
+  left: -1%;
 }
 
 .right-panel .awards-middle-header .left-s1{
@@ -232,7 +240,6 @@
   position: absolute;
   left: 35px;
   top: 5px;
-  font-size: 9px;
   font-weight: bold;
 }
 .right-panel .awards-middle-header .split-awards-middle .left-s2 .company-logo2{
@@ -265,7 +272,7 @@
 }
 .right-panel .awards-middle-header .split-awards-middle .left-s1 .company-logo4 img{
   width: 100%;
-  height: 10vh;
+  height: 9vh;
   position: relative;
   top: 13vw;
   left: 35%;
@@ -279,7 +286,7 @@
   width: 70%;
   height: 9vh;
   position: relative;
-  top: 8vw;
+  top: 8.2vw;
   left: 35%;
 }
 .right-panel .awards-middle-header .split-awards-middle .left-s .company-logo6{
@@ -325,13 +332,10 @@
   padding-top: 10px;
 }
 .para-3{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .para-4{
   margin-bottom: -10px;
-}
-.fs-1{
-  font-size: 222px;
 }
 
 
@@ -365,3 +369,21 @@
   transform: scale(1);
 }
 
+.t-1{
+  margin-top: 8px;
+}
+
+.t-3{
+  margin-top: 4px;
+}
+.fs-1{
+  font-size: 8px;
+  margin-top: 13px;
+}
+.fs-2{
+  font-size: 9px;
+}
+.fs-3{
+  font-size: 8px;
+  margin-top: 13px;
+}

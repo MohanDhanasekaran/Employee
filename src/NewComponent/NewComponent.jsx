@@ -21,8 +21,9 @@ import {
   FaGlobe,
   FaPhone,
   FaMapMarkerAlt,
+  FaEnvelope,
 } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+// import { FiMail } from "react-icons/fi";
 import { useRef } from "react";
 import html2canvas from "html2canvas";
 
@@ -119,14 +120,14 @@ const NewComponent = () => {
             <FaPhone className="icon-1" /> +91 {mobile}
           </p>
           <p>
-            <FiMail className="icon-1" /> {mail}
+            <FaEnvelope className="icon-1" /> {mail}
           </p>
           <p>
             <FaGlobe className="icon-1" /> www.necurity.com
           </p>
           <p>
-            <FaMapMarkerAlt className="icon-1" /> 6/13, North Avenue,Kesavaperumalpuram,
-            Raja Annamalai Puram, Chennai-28.
+            <FaMapMarkerAlt className="icon-2" /> 6/13, North
+            Avenue,Kesavaperumalpuram, Raja Annamalai Puram, Chennai-28.
           </p>
         </div>
       </div>
@@ -136,14 +137,13 @@ const NewComponent = () => {
           <h2>Awards and Achievements</h2>
         </div>
         <div className="awards-middle-header">
-          
           <div className="split-awards-middle para-4">
             <div className="left-s">
               <div className="awards-middle">
                 <img src={logo2} alt="" />
               </div>
-              <div className="awards-content">
-                <p>
+              <div className="awards-content ">
+                <p className="fs-1">
                   Listed as " Top 10 Trusted Cyber Security Companies in India"
                   by Insight Success Magazine 2019
                 </p>
@@ -170,7 +170,7 @@ const NewComponent = () => {
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content2">
-                <p>
+                <p className="fs-3">
                   Covered by the New Indian Express Newspaper for Extensive work
                   on Cyber Security
                 </p>
@@ -187,9 +187,9 @@ const NewComponent = () => {
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content">
-                <p className="para-1">Best Cyber Security Expert by</p>
+                <p className="para-1 fs-2">Best Cyber Security Expert by</p>
               </div>
-              <div className="company-logo">
+              <div className="company-logo9">
                 <img src={logo10} alt="" />
               </div>
             </div>
@@ -206,12 +206,12 @@ const NewComponent = () => {
               </div>
             </div>
 
-            <div className="left-s2">
+            <div className="left-s2 t-1">
               <div className="awards-middle2">
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content2">
-                <p className="para-2">
+                <p className="para-2 fs-2">
                   Vinutna Ratna Award by Akkineni Foundation of USA
                 </p>
               </div>
@@ -227,14 +227,14 @@ const NewComponent = () => {
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content">
-                <p className="para-1">We are certified by IRCLASS</p>
+                <p className="para-1 fs-2">We are certified by IRCLASS</p>
               </div>
               <div className="company-logo6">
                 <img src={logo7} alt="" />
               </div>
             </div>
 
-            <div className="left-s1">
+            <div className="left-s1 t-3">
               <div className="awards-middle1">
                 <img src={logo2} alt="" />
               </div>
@@ -246,12 +246,12 @@ const NewComponent = () => {
               </div>
             </div>
 
-            <div className="left-s2">
+            <div className="left-s2 t-1">
               <div className="awards-middle2">
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content2">
-                <p className="para-1">
+                <p className="para-1 fs-2">
                   We are ISO 27001 certified Organisation
                 </p>
               </div>
