@@ -17,7 +17,7 @@ import logo11 from "../Assets/Entrepreneurs Council of India.png";
 import {
   FaFacebook,
   FaLinkedin,
-  FaTwitterX,
+ FaTwitterX,
   FaGlobe,
   FaPhone,
   FaMapMarkerAlt,
@@ -25,7 +25,6 @@ import {
 } from "react-icons/fa";
 // import { FiMail } from "react-icons/fi";
 import { useRef } from "react";
-import { BsTwitterX } from "react-icons/bs";
 import html2canvas from "html2canvas";
 
 const NewComponent = () => {
@@ -98,7 +97,7 @@ const NewComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitterX size={35} color="#000000" />
+            <FaTwitterX  size={35} color="#000000" />
           </a>
           <a
             href="https://www.example.com"
