@@ -117,7 +117,7 @@ const NewComponent = () => {
 
         <div className="contact-info">
           <p>
-            <FaPhone className="icon-1" /> +91 {mobile}
+            <FaPhone className="icon-1 inverted-icon" /> +91 {mobile}
           </p>
           <p>
             <FaEnvelope className="icon-1" /> {mail}

@@ -391,3 +391,6 @@
   font-size: 8px;
   margin-top: 8px;
 }
+.inverted-icon {
+  transform: scaleX(-1);
+}
