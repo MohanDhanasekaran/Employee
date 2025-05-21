@@ -238,7 +238,7 @@ const NewComponent = () => {
                 <img src={logo2} alt="" />
               </div>
               <div className="awards-content1">
-                <p className="para-1 t-1">NASSCOM</p>
+                <p className="para-1 t-2">NASSCOM</p>
               </div>
               <div className="company-logo7">
                 <img src={logo8} alt="" />
