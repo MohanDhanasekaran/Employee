@@ -264,9 +264,9 @@ const NewComponent = () => {
       </div>
 
       {/* Download Button - excluded from screenshot */}
-      <button onClick={handleDownloadWithHtml2Canvas} className="download-btn">
+      {/* <button onClick={handleDownloadWithHtml2Canvas} className="download-btn">
         Download
-      </button>
+      </button> */}
     </div>
   );
 };
