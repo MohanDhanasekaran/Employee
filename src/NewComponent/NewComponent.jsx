@@ -17,7 +17,7 @@ import logo11 from "../Assets/Entrepreneurs Council of India.png";
 import {
   FaFacebook,
   FaLinkedin,
-  FaTwitter,
+  FaTwitterX,
   FaGlobe,
   FaPhone,
   FaMapMarkerAlt,
@@ -98,7 +98,7 @@ const NewComponent = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsTwitterX size={35} color="#000000" />
+            <FaTwitterX size={35} color="#000000" />
           </a>
           <a
             href="https://www.example.com"
