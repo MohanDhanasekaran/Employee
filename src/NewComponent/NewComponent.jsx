@@ -163,6 +163,7 @@ const NewComponent = () => {
                 <img src={logo4} alt="" />
               </div>
             </div>
+            
 
             <div className="left-s2">
               <div className="awards-middle2">
