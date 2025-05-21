@@ -104,6 +104,8 @@
 .middle-panel .contact-info p .icon-2{
   border-radius: 70%;
   font-size: 30px;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .right-panel{
